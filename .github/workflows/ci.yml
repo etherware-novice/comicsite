@@ -18,8 +18,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    # When the dist_dir is ready, deploy it to neocities
+    - name: checkout
+      uses: actions/checkout@v1
+      
+    - name: build jekyll
+      uses: victoriadrake/jekyll_cd
+
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v1
       with:
