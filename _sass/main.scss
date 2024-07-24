@@ -1,3 +1,17 @@
-.current {
-	color: green
+@import "sidebar";
+
+
+body {
+	background-color: #2196F3;
+	color: black;
+	font-family: Verdana;
+	text-align: center;
+	margin: 1px;
+	cursor: url("/cursor.png"),auto;
+}
+
+h1 {
+	margin: 1px;
+	padding: 8px;
+	background-color: blue;
 }

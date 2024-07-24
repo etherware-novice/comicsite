@@ -9,7 +9,15 @@
 		{% if page.neko == "true" %}
 			{% include neko.html %}
 		{% endif %}
-		{% include navigation.html %}
-		{{ content }}
+
+		<div class="columns">
+			<div class="left-sidebar">
+				{% include navigation.html %}
+			</div>
+			<div class="main-content">{{ content }}</div>
+			<div class="right-sidebar">
+				hello world
+			</div>
+		</div>
 	</body>
 </html>
