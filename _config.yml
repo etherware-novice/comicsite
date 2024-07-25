@@ -1,6 +1,7 @@
 collections:
-  pages:
+  comic:
     output: true
+    layout: "comic"
 
 defaults:
   - scope:
@@ -8,3 +9,8 @@ defaults:
     values:
       layout: "default"
       neko: "true"
+  - scope:
+      path: ""
+      type: "comic"
+    values:
+      layout: "comic"

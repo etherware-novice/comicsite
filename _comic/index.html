@@ -1,0 +1,12 @@
+---
+name: comic index
+layuot: default
+---
+<ul>
+	{% for post in site.comic %}
+		{% if post.url == page.url %}
+			{% continue %}
+		{% endif %}
+			<a href="{{ post.url }}">{{ post.title | downcase }}</a><br>
+	{% endfor %}
+</ul>
