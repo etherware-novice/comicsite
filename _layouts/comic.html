@@ -5,5 +5,9 @@ navbar: "comicnav"
 <h1>{{ page.title }}</h1>
 <h3>{{ page.name }}</h3>
 
-<img src="/assets/images/{{ page.image }}"><br>
+<img src="/assets/images/{{ page.image }}" width=70%><br>
 <p>{{content}}</p>
+
+<script defer type="text/javascript">
+	document.querySelector('#current').scrollIntoView()
+</script>

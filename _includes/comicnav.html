@@ -8,5 +8,11 @@
 		<h4>{{ post.header }}</h4>
 	{% endif %}
 
-	<a href="{{ post.url }}">{{ post.title | downcase }}</a><br>
+	{% if page.url == post.url %} 
+		<img src="/assets/images/site_arrow.gif" height=5%
+			 >
+	{% endif %}
+	<a href="{{ post.url }}" 
+		{% if page.url == post.url %} id="current" {% endif %}>
+		{{ post.title | downcase }}</a><br>
 {% endfor %}
