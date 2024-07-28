@@ -1,6 +1,8 @@
 ---
 title: special thanks/credits
 ---
+# The best thing about a small community is you can thank everyone individually -me right now
+
 ## tools used  
 neocities  
 jekyll  
