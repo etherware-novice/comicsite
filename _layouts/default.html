@@ -15,19 +15,25 @@ navbar: topnav
 		{% endif %}
 		<script data-goatcounter="https://slimepondcount.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
-		<div class="columns">
-			<div class="left-sidebar">
-				{% if layout.navbar != "" %}
-					{% include {{layout.navbar}}.html %}
-				{% endif %}
-			</div>
-			<div class="main-content">{{ content }}</div>
-			<div class="right-sidebar">
-				<img src="https://slimepondcount.goatcounter.com/counter/{{ page.url }}.png" width: 100%>
-				<iframe src="https://www3.cbox.ws/box/?boxid=3539632&boxtag=JU8HaS" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="5" marginwidth="5" scrolling="auto"></iframe>
+		<div class="vcol">
+			<div class="columns">
+				<div class="left-sidebar">
+					{% if layout.navbar != "" %}
+						{% include {{layout.navbar}}.html %}
+					{% endif %}
+				</div>
+				<div class="main-content">{{ content }}</div>
+				<div class="right-sidebar">
+					<img src="https://slimepondcount.goatcounter.com/counter/{{ page.url }}.png" width: 100%>
+					<iframe src="https://www3.cbox.ws/box/?boxid=3539632&boxtag=JU8HaS" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="5" marginwidth="5" scrolling="auto"></iframe>
+	
+				{% for blink in site.data.blinkers %}
+					<img src="assets/images/blinkers/{{ blink.name }}"
+					style="max-width:100%"></img>
+				{% endfor %}
+				</div>
 			</div>
 		</div>
-
 
 	</body>
 </html>
