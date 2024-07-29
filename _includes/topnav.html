@@ -1,6 +1,11 @@
 <nav>
 	{% for item in site.data.navigation %}
 	<a href="{{ item.link }}" {% if page.url == item.link %}class=current{% endif %}>
-		{{ item.name }} </a><br>
+		{% if item.img %}
+			<img src={{ item.img }} alt={{ item.name }}>
+		{% else %}
+			{{ item.name }} 
+		{% endif %}
+	</a><br>
 	{% endfor %}
 </nav>
