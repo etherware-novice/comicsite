@@ -1,5 +1,4 @@
 ---
-neko: "false"
 ---
 # THE HELPFUL LINKS
 because i am very bad at organzation
@@ -156,17 +155,7 @@ because i am very bad at organzation
 <https://jdan.github.io/98.css/>  
 <https://jekyllrb.com/docs> (boy this is meta)  
 <https://www.markdownguide.org/basic-syntax/>  
-
-### old internet refs
 [Web Design, But it's 1998 again](https://www.youtube.com/watch?v=7nYm4QkL22M)  
-<https://goblin-heart.net/sadgrl/cyberspace/surf-the-web>  
-<http://lu.tiny-universes.net/index2.html>  
-<https://tiny-universes.net/>  
-<https://troy-sucks.neocities.org/jackaric/comic_header.js> (tho i probly dont need anymore)  
-<https://gifcity.carrd.co/#>  
-<https://nekoweb.org> (thanks roly :))  
-<https://james.nekoweb.org/> (yes theres a link in the code but eh)  
-<https://arnaught.neocities.org/blog/2023/07/16/neocities-jekyll-blog>  
 
 ## SDL/OpenGL
 <https://wiki.libsdl.org/SDL2/Tutorials>  
