@@ -1,11 +1,11 @@
 @import "sidebar";
 @import "statuscafe";
+@import "fonts";
 
 
-body {
+html, body {
 	background-color: #2196F3;
 	color: black;
-	font-family: Verdana;
 	text-align: center;
 	margin: 1px;
 	cursor: url("/cursor.png"),auto;
