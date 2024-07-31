@@ -44,3 +44,14 @@ img {
 #flood-menu {
 	z-index: 9999999999 !important;
 }
+
+#blinkerscroll {
+	position: absolute;
+	left: 0;
+	bottom: 3vh;
+}
+
+.blinkers {
+	max-height: 7vh;
+	min-height: 32px;
+}
