@@ -14,3 +14,5 @@ defaults:
       type: "comic"
     values:
       layout: "comic"
+
+url: https://abslimeware.neocities.org

@@ -1,0 +1,26 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+	<title>slime pond comics</title>
+	<link>https://abslimeware.neocities.org</link>
+	<description>a very slimy themed comic
+	FEED MAY BE BUGGY
+	</description>
+	{% for post in site.comic reversed limit:10 %}
+	<item>
+		<title>{{ post.title | downcase }}</title>
+		<link>{{ post.url | absolute_url }}</link>
+		<guid>{{ post.url }}</guid>
+		<pubDate>{{ post.date | date_to_xmlscema }}</pubDate>
+		<description>Click to add description..</description>
+		{% capture fullimg %}/assets/images/{{ post.image }}{% endcapture %}
+		<enclosure url="{{ fullimg | absolute_url }}"
+			length="{{ fullimg | prepend: '.' | file_size }}" 
+			type="image/png" />
+	</item>
+	{% endfor %}
+</channel>
+</rss>
