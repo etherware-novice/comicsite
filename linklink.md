@@ -15,7 +15,8 @@
 <https://geocities.restorativland.org/>  
 <https://neonaut.neocities.org/cyber/88x31>  
 <https://status.cafe/>  
-<https://scootarooni.neocities.org/> (copy the marquee concept)  
+<https://scootarooni.neocities.org/>   
+<https://tamanotchi.world/>  
+<https://wobble.town/>  
    
-   
-[boring modern web help docs](/helpdump.md)
+[boring modern web help docs](/helpdump)

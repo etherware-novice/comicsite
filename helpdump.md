@@ -146,6 +146,7 @@ because i am very bad at organzation
 <https://google.github.io/styleguide/cppguide.html#Declaration_Order>  
 
 ## HTML/CSS/JS
+[Web Design, But it's 1998 again](https://www.youtube.com/watch?v=7nYm4QkL22M)  
 <https://developer.mozilla.org/en-US/docs/Learn/JavaScript> (left off at looping code)  
 <https://html5please.com/>  
 <https://developer.mozilla.org/en-US/docs/Web/HTML>  
@@ -155,7 +156,8 @@ because i am very bad at organzation
 <https://jdan.github.io/98.css/>  
 <https://jekyllrb.com/docs> (boy this is meta)  
 <https://www.markdownguide.org/basic-syntax/>  
-[Web Design, But it's 1998 again](https://www.youtube.com/watch?v=7nYm4QkL22M)  
+<https://css-tricks.com/snippets/css/a-guide-to-flexbox>  
+<https://html.com/images/how-to-make-an-image-map/>
 
 ## SDL/OpenGL
 <https://wiki.libsdl.org/SDL2/Tutorials>  
