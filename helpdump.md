@@ -186,3 +186,9 @@ because i am very bad at organzation
 ## AP (double rip banned)
 <https://github.com/ArchipelagoMW/Archipelago/blob/main/docs/network%20protocol.md#GetDataPackage>  
 <https://github.com/ArchipelagoMW/Archipelago/blob/main/worlds/rogue_legacy/__init__.py#L69>  
+
+## toki pona
+<https://lipu-sona.pona.la/7a.html>  
+<https://linku.la/>  
+<https://sona.pona.la/wiki/Recommended_learning_resources>  
+<https://sona.pona.la/wiki/Phatic_expressions_and_social_conventions#>

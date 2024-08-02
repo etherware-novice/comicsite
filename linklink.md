@@ -18,5 +18,8 @@
 <https://scootarooni.neocities.org/>   
 <https://tamanotchi.world/>  
 <https://wobble.town/>  
+<https://www.absolutemario.com>  
+<https://pixelsea.neocities.or>  
+<https://byhand.website/guides/>
    
 [boring modern web help docs](/helpdump)
