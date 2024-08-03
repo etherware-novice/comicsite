@@ -17,3 +17,9 @@ yet i still somehow survived long enough to make a website
 [github](https://github.com/etherware-novice/)  
 [youtube](https://www.youtube.com/channel/UCFODQLnGV-5V06Hgy1cgUdg)  
 [itchio (currently unused)](https://candycaneannihalator.itch.io)
+
+### oldnet accounts:
+[status.cafe](https://status.cafe/users/candycanearter)  
+[spacehey](https://spacehey.com/profile?id=2752406)  
+[goatcounter](https://slimepondcount.goatcounter.com/)  
+[wobble.town](https://wobble.town/visit/2096)
