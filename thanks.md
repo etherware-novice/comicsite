@@ -11,10 +11,10 @@ aseprite & krita
 ## personal readers
 turtlehat - reader, artist  
 [trby](https://trollbreeder.neocities.org) - reader, artist  
-lilac - reader
+lilac - reader  
 hiyenastrike - reader, artist  
 [ally](https://bsky.app/profile/did:plc:ej5c6soxzjn2almepo6lk6hd) - reader  
-dienamo - reader, original css guy
+dienamo - reader, original css guy  
 phoenix - css guy  
 [levi](https://www.antarcticempire.net/) - reader  
 
