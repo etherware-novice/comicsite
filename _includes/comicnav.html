@@ -3,6 +3,17 @@
 	<img src="/assets/images/blinkers/rss.png" />
 	RSS
 </a>
+
+{% if page.url == '/comic' %}
+	<img src="/assets/images/site.arrow.gif" height=5%
+		 class="inline">
+{% endif %}
+
+<a href="/comic">
+	<h3>EXTRAS</h3>
+</a>
+
+
 {% for post in site.comic %}
 	{% if post.title == "comic index" %}
 		{% continue %}
