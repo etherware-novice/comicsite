@@ -16,7 +16,7 @@ hiyenastrike - reader, artist
 [ally](https://bsky.app/profile/did:plc:ej5c6soxzjn2almepo6lk6hd) - reader  
 dienamo - reader, original css guy
 phoenix - css guy  
-[levi](https://www.antarticempire.net) - reader  
+[levi](https://www.antarcticempire.net/) - reader  
 
 Drew Neilum - reader  
 [Russ Albery](https://www.eyrie.org/~eagle) - reader  
