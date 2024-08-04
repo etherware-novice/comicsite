@@ -1,4 +1,5 @@
 ---
+permalink: /about
 layout: default
 title: about the slime guy
 ---
@@ -22,4 +23,5 @@ yet i still somehow survived long enough to make a website
 [status.cafe](https://status.cafe/users/candycanearter)  
 [spacehey](https://spacehey.com/profile?id=2752406)  
 [goatcounter](https://slimepondcount.goatcounter.com/)  
-[wobble.town](https://wobble.town/visit/2096)
+[wobble.town](https://wobble.town/visit/2096)  
+[nightfall.city](https://nightfall.city/shore/candycanearter/)
