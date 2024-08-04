@@ -19,7 +19,8 @@
 <https://tamanotchi.world/>  
 <https://wobble.town/>  
 <https://www.absolutemario.com>  
-<https://pixelsea.neocities.or>  
-<https://byhand.website/guides/>
+<https://pixelsea.neocities.org>  
+<https://byhand.website/guides/>  
+[<img src="/assets/images/blinkers/dittostamp1.gif">](https://dittodan.neocities.org)  
    
 [boring modern web help docs](/helpdump)
