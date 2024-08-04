@@ -1,4 +1,5 @@
 ---
+permalink: /index2
 ---
 # helo person!  
 ## welcome to the site

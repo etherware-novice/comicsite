@@ -3,6 +3,11 @@
 	src: url("/assets/font/pokemon-emerald-pro.ttf") format("truetype");
 }
 
+@font-face {
+	font-family: "DOS";
+	src: url("/assets/font/Fixedsys500c.ttf") format('truetype');
+}
+
 html, body {
 	font-family: "Pokemon Emerald Pro";
 	font-size: 1.05em;
