@@ -1,5 +1,6 @@
 ---
 title: special thanks/credits
+permalink: /thanks
 ---
 # The best thing about a small community is you can thank everyone individually -me right now
 
