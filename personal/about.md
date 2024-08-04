@@ -17,11 +17,14 @@ yet i still somehow survived long enough to make a website
 [artfight](https://artfight.net/~candycanearter)  
 [github](https://github.com/etherware-novice/)  
 [youtube](https://www.youtube.com/channel/UCFODQLnGV-5V06Hgy1cgUdg)  
-[itchio (currently unused)](https://candycaneannihalator.itch.io)
+[itchio (currently unused)](https://candycaneannihalator.itch.io)  
+[backloggd](https://www.backloggd.com/u/candycanearter07/)  
 
 ### oldnet accounts:
 [status.cafe](https://status.cafe/users/candycanearter)  
 [spacehey](https://spacehey.com/profile?id=2752406)  
 [goatcounter](https://slimepondcount.goatcounter.com/)  
 [wobble.town](https://wobble.town/visit/2096)  
-[nightfall.city](https://nightfall.city/shore/candycanearter/)
+[nightfall.city](https://nightfall.city/shore/candycanearter/)  
+[exophase](https://www.exophase.com/user/candycanearter07)  
+[sheezy.art](https://sheezy.art/candycanearter07)

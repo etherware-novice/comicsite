@@ -20,4 +20,6 @@ please give some site suggestions in the right sidebar
 
 
 look at my pet  
-<a href="https://wobble.town/visit/2096"><img src="https://wobble.town/visit/2096/wobble.gif"></a>
+<a href="https://wobble.town/visit/2096"><img src="https://wobble.town/visit/2096/wobble.gif"></a>  
+
+<a href="https://www.exophase.com/user/candycanearter07/"><img src="https://card.exophase.com/2/0/268504.png?1722802555"></a>  
