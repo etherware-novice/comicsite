@@ -75,3 +75,24 @@ img {
 	background-color: white;
 	justify-content: center;
 }
+
+#player {
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+	bottom: 15vh; left: 4vw;
+	padding: 10px;
+	gap: 10px;
+	width: 25vw;
+	background-color: black;
+	color: white;
+
+	transform: rotate(3deg);
+	z-index: 5;
+}
+
+#player * {
+	color: white;
+	text-decoration: none;
+}
+

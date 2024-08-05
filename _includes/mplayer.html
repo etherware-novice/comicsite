@@ -1,0 +1,19 @@
+<div id="player">
+	<span id="player-text"></span>
+	<a href="javascript:void(0)" onClick="stopPlayer()">stop</a>
+	<a href="javascript:void(0)" onClick="MIDIjs.play('/assets/mid/canyon.mid')">play</a>
+</div>
+
+<script>
+	var duration = 0;
+	function updatePlayerStatus(msg) {
+		document.getElementById("player-text").innerHTML = msg;
+	}
+	function stopPlayer() {
+		MIDIjs.stop();
+		document.getElementById("player-text").innerHTML = "";
+	}
+
+	MIDIjs.message_callback = updatePlayerStatus;
+</script>
+
