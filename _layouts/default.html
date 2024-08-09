@@ -28,7 +28,10 @@ navbar: topnav
 				</div>
 				<div class="main-content">{{ content }}</div>
 				<div class="right-sidebar">
-					{% include swatchclock.html %}
+					time:
+					<span id="swatchClock"></span>
+					<script src="/assets/js/swatch.js"></script>
+					
 					<img src="https://slimepondcount.goatcounter.com/counter/{{ page.url }}.png" style="width: 100%">
 					<iframe src="https://www3.cbox.ws/box/?boxid=3539632&boxtag=JU8HaS" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="5" marginwidth="5" scrolling="auto" id="cbox"></iframe>
 
