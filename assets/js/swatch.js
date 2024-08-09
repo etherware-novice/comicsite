@@ -18,9 +18,15 @@ function getSwatch(showCenti = true) {
 	}
 }
 
-var disp = document.getElementById('swatchClock');
+function hueSwatch() {
+	let swatchPercent = getSwatch() / 1000;
+	let degree = Math.floor(360 * swatchPercent);
+
+	return degree;
+}
+
 function updateSwatch() {
-	disp.innerHTML = '@' + getSwatch();
+	document.getElementById('swatchClock').innerHTML = '@' + getSwatch();
 }
 setInterval(updateSwatch, 864);
 

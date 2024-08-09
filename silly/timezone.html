@@ -1,0 +1,29 @@
+---
+title: the zone without time
+---
+<h1><span id="rgbClock"></span> - <span id="hueClock"></span>deg</h1>
+<h2>click on the page if <a href="http://listen.hatnote.com/#en">music</a> is not playing!</h2>
+<iframe id="mus" src="http://listen.hatnote.com/#en" 
+				 style="visibility: hidden"></iframe>
+
+<div class="background" id="psych" style="background-color: purple">
+</div>
+
+<script src="https://melonking.net/scripts/dayColour.js"></script>
+<script src="/assets/js/hexclock.js"></script>
+<script>
+	function colorUpdate() {
+		let bg = document.getElementById('psych');
+		//bg.style.backgroundColor = ttHex();
+		bg.style.backgroundColor = "hsl(" + hueSwatch() + " 80% 60%)"
+		document.getElementById('hueClock').innerHTML = hueSwatch();
+
+		let heads = document.querySelectorAll("h1, .main-content, .left-sidebar, .right-sidebar");
+		heads.forEach((head) => {
+			head.style.backgroundColor = getRGBeatNow();
+		});
+
+		document.getElementById('rgbClock').innerHTML = getRGBeatNow();
+	}
+	setInterval(colorUpdate, 500);
+</script>
