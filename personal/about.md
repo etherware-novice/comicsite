@@ -31,3 +31,5 @@ yet i still somehow survived long enough to make a website
 [pokefarm](https://pokefarm.com/user/candycanearter07)  
 [tamonatchi (im too weak)](https://tamanotchi.world/14450)  
 [pokefarm](https://pokefarm.com/user/candycanearter07)  
+
+![pokemon personality quiz](/assets/images/decor/Result_dragonair.gif)
