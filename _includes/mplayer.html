@@ -1,19 +1,31 @@
 <div id="player">
 	<span id="player-text"></span>
-	<a href="javascript:void(0)" onClick="stopPlayer()">stop</a>
-	<a href="javascript:void(0)" onClick="MIDIjs.play('/assets/mid/canyon.mid')">play</a>
+	<a id="player-stop" href="javascript:void(0)">stop</a>
+	<a id="player-play" href="javascript:void(0)">play</a>
 </div>
 
-<script>
-	var duration = 0;
-	function updatePlayerStatus(msg) {
-		document.getElementById("player-text").innerHTML = msg;
-	}
-	function stopPlayer() {
-		MIDIjs.stop();
-		document.getElementById("player-text").innerHTML = "";
-	}
 
-	MIDIjs.message_callback = updatePlayerStatus;
+<audio id="interadio" src="https://radio.erb.pw/listen/subspace/radio.mp3"></audio>
+<script src='/assets/js/icystream.js'></script>
+
+<script>
+	var player = document.getElementById('interadio');
+	var playertxt = document.getElementById('player-text');
+	console.log(player);
+	console.log(playertxt);
+
+	function playEr(){
+		player.play();
+		playertxt.style.display = 'inline';
+	};
+
+	function stopEr(){
+		player.pause();
+		playertxt.style.display = 'none';
+	};
+
+	stopEr();
+	document.getElementById('player-stop').onclick = stopEr;
+	document.getElementById('player-play').onclick = playEr;
 </script>
 
