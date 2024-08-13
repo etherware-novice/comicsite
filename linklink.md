@@ -22,5 +22,6 @@
 <https://pixelsea.neocities.org>  
 <https://byhand.website/guides/>  
 [<img src="/assets/images/blinkers/dittostamp1.gif">](https://dittodan.neocities.org)  
+[icon archive](http://cs.gettysburg.edu/~duncjo01/archive/icons/iconolog/giffed/iconolog/index.html)
    
 [boring modern web help docs](/helpdump)
