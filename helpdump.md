@@ -3,6 +3,31 @@
 # THE HELPFUL LINKS
 because i am very bad at organzation
 
+## TOC
+<a href="#linux">Linux</a> 
+<a href="#radio">Radio</a> 
+<a href="#mental-health-and-mentality">Mental Health</a> 
+<a href="#artwork">Artwork</a> 
+<a href="#pixel-art">Pixel Art</a> 
+<a href="#general-coding-concepts">Coding Concepts</a> 
+<a href="#png-and-image-manip">Image Manipulation</a> 
+<a href="#musicsfx">Music & SFX</a> 
+<a href="#blender">Blender</a> 
+<a href="#makefile">Makefile</a> 
+<a href="#godot">Godot</a> 
+<a href="#gbadev">GBAdev</a> 
+<a href="#3dsdev">3DSdev</a> 
+<a href="#rust">Rust</a> 
+<a href="#tic-80-rip">Tic80</a> 
+<a href="#asm">ASM</a> 
+<a href="#c-coding">c lang</a> 
+<a href="#c">C++</a> 
+<a href="#htmlcssjs">Webdev</a> 
+<a href="#sdlopengl">SDL/OpenGL</a> 
+<a href="#nes">NES</a> 
+<a href="#raylib">Raylib</a> 
+<a href="#ap-double-rip-banned">Archipelago Randomizer</a> 
+
 
 ## Linux
 <http://www.linusakesson.net/programming/tty/index.php>  
