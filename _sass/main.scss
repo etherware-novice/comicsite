@@ -20,6 +20,7 @@ h1 {
 	padding: 8px;
 	background-color: blue;
 }
+h1 a { color: white; }
 
 img {
 	width: auto;
@@ -96,4 +97,13 @@ img {
 	border-color: transparent transparent transparent black;
 	position: absolute;
 	top: 0; right: -40px;
+}
+
+
+code {
+	display: inline-block;
+	background-color: gray;
+	border: 1px black solid;
+	padding: .5em;
+	margin: 0.5em 0.25em;
 }
