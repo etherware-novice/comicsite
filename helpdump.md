@@ -184,7 +184,9 @@ because i am very bad at organzation
 <https://css-tricks.com/snippets/css/a-guide-to-flexbox>  
 <https://html.com/images/how-to-make-an-image-map/>
 <https://css-tricks.com/snippets/css/a-guide-to-flexbox>  
-<https://thoughts.melonking.net/guides/creating-a-3d-world-in-x3d>
+<https://thoughts.melonking.net/guides/creating-a-3d-world-in-x3d>  
+<https://kristopolous.github.io/BOOTSTRA.386/v2.3.1/base-css.html>  
+<https://www.image-map.net/>  
 
 ## SDL/OpenGL
 <https://wiki.libsdl.org/SDL2/Tutorials>  

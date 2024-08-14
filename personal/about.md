@@ -19,6 +19,7 @@ yet i still somehow survived long enough to make a website
 [youtube](https://www.youtube.com/channel/UCFODQLnGV-5V06Hgy1cgUdg)  
 [itchio (currently unused)](https://candycaneannihalator.itch.io)  
 [backloggd](https://www.backloggd.com/u/candycanearter07/)  
+[minesweeper.online](https://minesweeper.online/player/23258910)
 
 ### oldnet accounts:
 [status.cafe](https://status.cafe/users/candycanearter)  
