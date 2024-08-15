@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.7" />
+        <title>Surf Club Zine #1</title>
+        <link href="index.css" rel="stylesheet" type="text/css" media="all" />
+    </head>
+    <body>
+		<a href="/" id="backlink">back to home</a>
+		<div id="cpu">
+			<img src="images/frame_1.png">
+	        <div id="wrapper">
+   	         <header>
+   	             <h1>how to retroify your art! (+ small pixelart guide!)</h1>
+   	         </header>
+
+   	         <article>
+				<p>so, you want to make your graphics look bitcrushed to all hell? look no further!</p>
+				<br>
+				<h2> Tools needed: </h2>
+				<ul>
+					<li><a href="https://imagemagick.org/">imagemagick</a></li>
+					<li><a href="https://github.com/aseprite/aseprite">Aseprite (or any pixel art program, but I like aseprite)</a></li>
+				</ul>
+			</article>
+
+			<article>
+				<h1>pixel art tutorial section</h1>
+				<p>here's how i like doing my graphics!<br>
+				first, we get a reference, and i'm going to use a pokemon i like and is relatively simple to draw:</p>
+				<img src="https://archives.bulbagarden.net/media/upload/thumb/8/89/0045Vileplume.png/800px-0045Vileplume.png" width=256px>
+				<p>vileplume!</p>
+
+				<p>so, first i create a new image of 64x64, and make a pallete from the sprite. you don't have to do this, but i like planning out the colors before i start to make it feel more organized and you can always add a color if you forget the light blue like i did</p>
+				<img src="images/pixel_tut/1_palette.gif">
+
+				<p>you can kinda block out a certain part by sketching it out with a large brush size. i start with the petals here, putting the front and back petals on a seperate layer (displayed with the darker red here) to make it easier to add the center bit</p>
+				<img src="images/pixel_tut/2_topsketch.png">
+
+				<p>i add the darker red to seperate the frontmost petal from the back two, and fill everything with the base red color, and add a layer between the two petals for the spike</p>
+				<img src="images/pixel_tut/3_top.png">
+
+				<p>i also add spots here but i forgot to take a scrshot</p>
+				<p>the body is very easy to do here, just make a cylinder-y shape on a layer below all the petals</p>
+				<img src="images/pixel_tut/4_body.png">
+
+				<p>finally, i add the limbs on a layer above the body but below the petals</p>
+				<img src="images/pixel_tut/5_limb.png">
+
+				<p>for finishing touches, i add the eyes in and add a double outline with the "square outline" mode</p>
+				<img src="images/pixel_tut/fin.png">
+
+				<p>and now we have an image to bitcrush!</p>
+            </article>
+
+			<article>
+				<h1>the actual bitcrushing</h1>
+				<h2>where the "magick" happens</h2>
+
+				<p>so, for this part, you need to understand basic terminal commands</p>
+				<em><b>WAIT please dont leave its simple i promise</b></em>
+
+				<p>ok, so this part is mostly for helping windows, if you're on macOS or Linux, you can replace <code>magick.exe</code> with <code>convert</code></p>
+				<p>open a terminal by holding shift and right clicking an empty section of the folder, then click <code>Open Powershell Window Here</code>
+				<p>now, type this exactly into the terminal but don't hit enter until reading the next section:<br><code>magick.exe yourfile.png -coalesce -scale 128x -ordered-dither o4x4,4 -remap netscape: out.png</code><br>
+				explanation for each part:
+				<ul>
+					<li><code>magick.exe</code> - run imagemagick</li>
+					<li><code>yourfile.png</code> - loads your image into the program to be edited</li>
+					<li><code>-coalesce</code> - if your image is a gif, it modifies each frame individually instead of smearing it</li>
+					<li><code>-scale -128x</code> - scales the image down so it has a width of 128 pixels. height is automatically adjusted to fit aspect ratio. i'd reccomend a bigger size, like 256x, for backgrounds, but you can experiment with what looks good to you</li>
+					<li><code>-ordered-dither o4x4,4</code> - adds a heavy layer of dithering to the image</li>
+					<li><code>-remap netscape:</code> - forces the image into the websafe (netscape) color palette</li>
+					<li><code>out.png</code> - specifies the filename you want to output to
+				</ul>
+
+				<h2>remap vs posterize</h2>
+				<p>there is an issue with the -remap netscape: command, it removes all transparency! you can go and edit it yourself after running the command, but there is an alternative you can replace it with:
+				<p><code>-colors 8</code> limits how many colors are in the image, and keeps transparency. but it outputs an image not in the websafe palette. either one works well, but i prefer remap</p>
+
+				<p>there should now be a new file in your directory labelled out.png (or whatever you put in the command line) that has your new bitcrushed image! for an example, here is what the above drawing looks like:</p>
+				<img src="images/pixel_tut/fin_crush.png">
+				<p>looks cool, huh?</p>
+				<p>it even works on traditional art! (using a random drawing from my drawing folder:</p>
+				<img src="images/extexample.png">
+			</article>
+
+			<article>
+				<h1>minor notes and tips</h1>
+				<p>if you're going to upload small images without scaling it up, make sure to add <code>image-rendering: pixelated</code> to the css of your image! this forces it to do no filtering on the image, and makes it look crisp<p>
+				<p>imagemagick has lots of other cool filters i can't get into here without making the article 5 gigabytes, but look through the site and experiment some! i promise the terminal is not scary</p>
+				<p>this technique works great to make a favicon and cursor too! i'd recommend using 64x64 instead of 32x32 to give it more room to be recognizable</p>
+				<p>making all the images line up with the pixels is very hard, but one way to do it is by putting everything together on seperate layers in an image editor, exporing every layer seperately (including all the whitespace), then bitcrush it. of course, you will have to crop it yourself after, but it should be at the same pixel scale</p>
+				<p>in aseprite, you can easily add an overall outline on a seperate layer by:
+				<ul>
+					<li>creating a new layer above everything</li>
+					<li>selecting a color that is not the one you want to outline with</li>
+					<li>switching to magic wand tool and selecting all of the background (hold shift to combine selections!)</li>
+					<li>hold ctrl, shift, and hit i to invert selection</li>
+					<li>hit f to fill the selection with the current color. your sprite should be completely sillouetted</li>
+					<li>ctrl+o to pull up outline tool</li>
+					<li>once done, use ctrl+r to pull up the replacement tool and replace the inner color with transparency</li>
+				</ul>
+			</article>
+
+			<footer>
+				pokemon is property of gamefreak i obviously do not own it<br>
+				space.dmi (background image) sourced from <a href="https://github.com/tgstation/tgstation/blob/master/icons/turf/space.dmi">tgstation (github)</a> under creative commons 3.0<br>
+			(dmi files are literally just png with some spritesheet metadata you can just rename it to png)</footer>
+        </div>
+		</div>
+    </body>
+</html>
