@@ -6,11 +6,16 @@ i dont know what im doing */
 		font-size: 1.50em;
 	}
 
-	.columns, .vcol{
-		top: 50px;
-		flex-direction: column;
-		flex-wrap: wrap;
-		max-height: 90%;
+	.container {
+  		grid-template-rows: 1fr 1.5em 1fr 5fr auto 0px;
+  		grid-template-columns: 1fr 1fr;
+  		grid-template-areas:
+			"sitecount pets"
+			"quotes quotes"
+			"navigation navigation"
+			"main main"
+			"blinker blinker"
+			"cbox name";
 	}
 
 	.left-sidebar, .right-sidebar {
