@@ -15,6 +15,7 @@ navbar: topnav
 			{% include neko.html %}
 		{% endif %}
 		<script data-goatcounter="https://slimepondcount.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+		<script src="/assets/js/unixfortune.js"></script>
 
 		{% include background.html %}
 		{% include mplayer.html %}
@@ -33,7 +34,7 @@ navbar: topnav
 				{% include statuscafe.html %}
 				<img src="/assets/images/blinkers/cc-by-sa.gif">
 			</div>
-			<marquee class="quotes">
+			<marquee onstart="updateFortune(this, '/assets/fortune/fortunes')" class="quotes">
 				quotes will go here when i get back to working on this
 			</marquee>
 				
