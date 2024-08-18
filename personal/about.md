@@ -35,3 +35,4 @@ yet i still somehow survived long enough to make a website
 [advert on melonland](https://everyone.melonland.net/candyhome)
 
 ![pokemon personality quiz](/assets/images/decor/Result_dragonair.gif)
+<a href="https://casiopea.neocities.org/isopod/isopodquiz.html"><img src="/assets/images/decor/isoquiz.png"></a>
