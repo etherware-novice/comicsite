@@ -1,0 +1,99 @@
+---
+layout: null
+---
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>welcome to the internet</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+
+	<body>
+		<script src="/assets/js/swatch.js"></script>
+
+		<div id="litclock" class="border">
+			<p>literature clock:</p>
+			<span id="litclock-pre"></span>
+			<span id="litclock-time"></span>
+			<span id="litclock-post"></span>
+		</div>
+
+		<div id="main" class="border">
+			<p>welcome to the pokenav</p>
+			<p>this goomy will stare at you</p>
+		</div>
+
+		<map name="map">
+			<area coords="550,70,650,220" shape="rect" onclick="dispTime()"></area>
+			<area coords="550,231,650,380" shape="rect" onclick="dispLink()"></area>
+		</map>
+
+		<div id="poketch" class="border">
+			<img src="images/poketch.png" usemap="#map">
+			<p id="swatchClock"></p>
+			<div id="links">
+				<a href="https://bsky.app">
+					<img src="images/icons1.png">
+					<p>bluesky</p>
+				</a>
+				<a href="https://tumblr.com">
+					<img src="images/icons2.png">
+					<p>tumblr</p>
+				</a>
+				<a href="https://forum.melonland.net/index.php">
+					<img src="images/icons3.png">
+					<p>melonforum</p>
+				</a>
+				<a href="https://neocities.org">
+					<img src="images/icons4.png">
+					<p>neocities</p>
+				</a>
+				<a href="https://minesweeper.online">
+					<img src="images/icons5.png">
+					<p>mines</p>
+				</a>
+				<a href="/personal/pokeblog">
+					<img src="images/icons6.png">
+					<p>my pokeblog</p>
+				</a>
+			</div>
+		</div>
+
+		<img src="images/goomy.png" id="goomy">
+
+
+		<script>
+			
+			function dispTime() {
+				document.getElementById("swatchClock").style.display = "block";
+				document.getElementById("links").style.display = "none";
+			}
+			function dispLink() {
+				document.getElementById("swatchClock").style.display = "none";
+				document.getElementById("links").style.display = "flex";
+			}
+
+			function npad(num) {
+				if (num < 10) { num = "0" + num; }
+				return num;
+			}
+
+			async function updateFancyTime() {
+
+				let cdate = new Date();
+				let res = await fetch(`https://raw.githubusercontent.com/lbngoc/literature-clock/master/docs/times/${npad(cdate.getHours())}:${npad(cdate.getMinutes())}.json`);
+
+				let quotedex = await res.json();
+				let quotesel = quotedex[0];
+				document.getElementById("litclock-pre").innerHTML = quotesel.quote_first;
+				document.getElementById("litclock-time").innerHTML = quotesel.time;
+				document.getElementById("litclock-post").innerHTML = quotesel.quote_last;
+
+				return quotesel;
+			}
+
+			dispTime();
+			setInterval(updateFancyTime, 1000);
+		</script>
+	</body>
