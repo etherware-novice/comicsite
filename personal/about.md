@@ -36,3 +36,6 @@ yet i still somehow survived long enough to make a website
 
 ![pokemon personality quiz](/assets/images/decor/Result_dragonair.gif)
 <a href="https://casiopea.neocities.org/isopod/isopodquiz.html"><img src="/assets/images/decor/isoquiz.png"></a>
+
+<a href="http://www.nerdtests.com/ft_cg.php?im">
+<img src="http://www.nerdtests.com/images/ft/cg.php?val=9784" alt="My computer geek score is greater than 84% of all people in the world! How do you compare? Click here to find out!"> </a>
