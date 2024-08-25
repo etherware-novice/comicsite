@@ -31,32 +31,46 @@ layout: null
 
 		<div id="poketch" class="border">
 			<img src="images/poketch.png" usemap="#map">
-			<p id="swatchClock"></p>
-			<div id="links">
-				<a href="https://bsky.app">
-					<img src="images/icons1.png">
-					<p>bluesky</p>
-				</a>
-				<a href="https://tumblr.com">
-					<img src="images/icons2.png">
-					<p>tumblr</p>
-				</a>
-				<a href="https://forum.melonland.net/index.php">
-					<img src="images/icons3.png">
-					<p>melonforum</p>
-				</a>
-				<a href="https://neocities.org">
-					<img src="images/icons4.png">
-					<p>neocities</p>
-				</a>
-				<a href="https://minesweeper.online">
-					<img src="images/icons5.png">
-					<p>mines</p>
-				</a>
-				<a href="/personal/pokeblog">
-					<img src="images/icons6.png">
-					<p>my pokeblog</p>
-				</a>
+			<div id="poketch-int">
+				<p id="swatchClock"></p>
+				<div id="links">
+
+					<select id="searchselect">
+						<option value="https://duckduckgo.com/?q=">DuckDuckGo</option>
+						<option value="https://en.wikipedia.org/w/index.php?go=Go&search=">Wikipedia</option>
+						<option disabled>--code pages--</option>
+						<option value="https://github.com/search?q=">Github</option>
+						<option value="https://archive.org/search?query=">Internet Archive</option>
+						<option value="http://theoldnet.com/find?query=">TheOldNet</option>
+					</select>
+					<input type="text" id="searchbar">
+
+					<img src="images/icons6.png" id="searchgo" onclick="searchwww()">
+					<a href="https://bsky.app">
+						<img src="images/icons1.png">
+						<p>bluesky</p>
+					</a>
+					<a href="https://tumblr.com">
+						<img src="images/icons2.png">
+						<p>tumblr</p>
+					</a>
+					<a href="https://forum.melonland.net/index.php">
+						<img src="images/icons3.png">
+						<p>melonforum</p>
+					</a>
+					<a href="https://neocities.org">
+						<img src="images/icons4.png">
+						<p>neocities</p>
+					</a>
+					<a href="https://minesweeper.online">
+						<img src="images/icons5.png">
+						<p>mines</p>
+					</a>
+					<a href="/personal/pokeblog">
+						<img src="images/icons6.png">
+						<p>my pokeblog</p>
+					</a>
+				</div>
 			</div>
 		</div>
 
@@ -91,6 +105,15 @@ layout: null
 				document.getElementById("litclock-post").innerHTML = quotesel.quote_last;
 
 				return quotesel;
+			}
+
+			function searchwww() {
+				var url = document.getElementById("searchbar");
+				var searcher = document.getElementById("searchselect");
+				if(url.value && searcher.value)
+				{
+					window.location.assign(searcher.value + encodeURI(url.value));
+				}
 			}
 
 			dispTime();

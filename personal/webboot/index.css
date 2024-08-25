@@ -27,10 +27,17 @@ html {
 	background-color: white;
 }
 
-#links {
+#poketch-int {
 	position: absolute;
-	top: 15%; left: 6%;
-	width: 75%; height: 65%;
+	width: 67%; height: 71%;
+	left: 10%; top: 12%;
+	overflow-y: scroll;
+}
+#poketch-int::-webkit-scrollbar { display: none; }
+#poketch-int { -ms-overflow-style: none; scrollbar-width: none; }
+
+#links {
+	width: 100%; height: 100%;
 	margin: auto;
 	text-align: center;
 
@@ -62,15 +69,13 @@ html {
 	height: 60vh; width: 40vw;
 	bottom: -5vw;
 	left: 32vw;
-
-	overflow: scroll;
 }
-#poketch>img { width: 100%; }
+#poketch>img { width: 95%; position: absolute; }
 #poketch a { color: inherit; text-decoration: none; }
 
 #swatchClock {
 	position: absolute;
-	top: 40%; width: 83%;
+	top: 40%; width: 100%;
 	text-align: center;
 	font-size: 6rem;
 	margin: auto;
@@ -102,3 +107,11 @@ html {
 	font-family: LCDNUM;
 	font-size: 3rem;
 }
+
+#searchbar {
+	width: 75%; height: 1.5rem;
+	margin: 10px;
+}
+
+#searchgo { height: 1.5rem; margin: 10px; }
+#searchselect { width: 95%; }
