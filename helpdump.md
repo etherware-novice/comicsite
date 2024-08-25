@@ -187,6 +187,7 @@ because i am very bad at organzation
 <https://thoughts.melonking.net/guides/creating-a-3d-world-in-x3d>  
 <https://kristopolous.github.io/BOOTSTRA.386/v2.3.1/base-css.html>  
 <https://www.image-map.net/>  
+<https://cubic-bezier.com>
 
 ## SDL/OpenGL
 <https://wiki.libsdl.org/SDL2/Tutorials>  
