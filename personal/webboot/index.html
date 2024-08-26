@@ -40,8 +40,16 @@ layout: null
 						<option value="https://en.wikipedia.org/w/index.php?go=Go&search=">Wikipedia</option>
 						<option disabled>--code pages--</option>
 						<option value="https://github.com/search?q=">Github</option>
+						<option value="https://developer.mozilla.org/en-US/search?q=">Mozilla Dev Docs</option>
+						<option value="https://html.duckduckgo.com/html?q=site%3Acppreference.com ">C++ reference</option>
 						<option value="https://archive.org/search?query=">Internet Archive</option>
 						<option value="http://theoldnet.com/find?query=">TheOldNet</option>
+						<option disabled>--wikis--</option>
+						<option value="https://bulbapedia.bulbagarden.net/w/index.php?title=Special%253ASearch&search=">Pokemon</option>
+						<option value="https://www.stardewvalleywiki.com/mediawiki/index.php?title=Special%253ASearch&fulltext=Search&search=">Stardew</option>
+						<option value="https://aceattorney.fandom.com/wiki/Special:Search?scope=internal&navigationSearch=true&query=">Phoenix Wright</option>
+						<option value="https://www.mariowiki.com/index.php?title=Special%3ASearch&search=">Super Mario</option>
+						<option value="https://www.spriters-resource.com/search/?q=">Spriters Resource</option>
 					</select>
 					<input type="text" id="searchbar">
 
@@ -69,6 +77,14 @@ layout: null
 					<a href="/personal/pokeblog">
 						<img src="images/icons6.png">
 						<p>my pokeblog</p>
+					</a>
+					<a href="https://pokefarm.com/party">
+						<img src="images/icons7.png">
+						<p>pokefarm</p>
+					</a>
+					<a href="http://listen.hatnote.com/#en">
+						<img src="images/icons8.png">
+						<p>music</p>
 					</a>
 				</div>
 			</div>
@@ -116,7 +132,7 @@ layout: null
 				}
 			}
 
-			dispTime();
+			dispLink();
 			setInterval(updateFancyTime, 1000);
 		</script>
 	</body>
