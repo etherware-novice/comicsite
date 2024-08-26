@@ -1,8 +1,8 @@
 ---
 ---
 # OTHER OLDEN WEBSITES
-<https://retrojcities.neocities.org/>
-<https://neoskitties.org/>
+<https://retrojcities.neocities.org/>  
+<https://neoskitties.org/>  
 <https://goblin-heart.net/sadgrl/cyberspace/surf-the-web>  
 <http://lu.tiny-universes.net/index2.html>  
 <https://tiny-universes.net/>  
@@ -27,8 +27,8 @@
 [icon archive](http://cs.gettysburg.edu/~duncjo01/archive/icons/iconolog/giffed/iconolog/index.html)  
 <https://jack-dawlia.neocities.org/page/home>  
 <https://sprinkleshojo.nekoweb.org/>  
-<https://www.earthboundtext.com>
-<https://randompokemon.com/>
-<http://toastytech.com/guis/index.html>
+<https://www.earthboundtext.com>  
+<https://randompokemon.com/>  
+<http://toastytech.com/guis/index.html>  
    
 [boring modern web help docs](/helpdump)
