@@ -25,3 +25,8 @@ look at my pets
 <a href="https://pfq.link/?d2_lL"><img src="https://pfq.link/?d2_lL=party_oras.png" style="max-height: 48px;" /></a>
 
 <a href="https://www.exophase.com/user/candycanearter07/"><img src="https://card.exophase.com/2/0/268504.png?1722802555"></a>  
+
+if you want to link back here, use one of my badges:  
+![badge_fanmade](/assets/images/blinkers/candycane.gif)
+![badge_50x](/assets/images/blinkers/site_badge_50x.png)
+![badge_88x](/assets/images/blinkers/site_badge_88x.png)
