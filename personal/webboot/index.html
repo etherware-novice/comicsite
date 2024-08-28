@@ -37,6 +37,7 @@ layout: null
 
 					<select id="searchselect">
 						<option value="https://duckduckgo.com/?q=">DuckDuckGo</option>
+						<option value="https://">URL</option>
 						<option value="https://en.wikipedia.org/w/index.php?go=Go&search=">Wikipedia</option>
 						<option disabled>--code pages--</option>
 						<option value="https://github.com/search?q=">Github</option>
@@ -126,7 +127,7 @@ layout: null
 			function searchwww() {
 				var url = document.getElementById("searchbar");
 				var searcher = document.getElementById("searchselect");
-				if(url.value && searcher.value)
+				if(url.value)
 				{
 					window.location.assign(searcher.value + encodeURI(url.value));
 				}
