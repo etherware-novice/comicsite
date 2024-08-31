@@ -1,0 +1,19 @@
+#typeboot {
+	position: fixed; top: 0; left: 0;
+	width: 200%; height: 100%;
+	z-index: 100;
+}
+
+#typeboot>*::before {
+	content: " ";
+	background-color: white;
+	height: 100%;
+	display: inline-block;
+	position: relative; left: -2rem;
+	width: 2rem;
+}
+
+#typeboot>* {
+	height: 30px;
+	background-color: black;
+}
