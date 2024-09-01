@@ -10,7 +10,8 @@ i happen to be an artist and coder:
 
 proud artfighter of 1 year! (verdicts still out on if we won)
 
-![af_seafoam](/assets/images/blinkers/stamp_seafoam.png) 110 attacks - 72 defenses
+<img src="/assets/images/blinkers/stamp_seafoam.png" alt="artfight-seafoam">
+110 attacks - 72 defenses
 
 
 i also run a basic webcomic themed around slimes
@@ -27,7 +28,7 @@ look at my pets
 <a href="https://www.exophase.com/user/candycanearter07/"><img src="https://card.exophase.com/2/0/268504.png?1722802555"></a>  
 
 if you want to link back here, use one of my badges:  
-![badge_fanmade](/assets/images/blinkers/candycane.gif)
-![badge_50x](/assets/images/blinkers/site_badge_50x.png)
-![badge_88x](/assets/images/blinkers/site_badge_88x.png)
-![badge_goomy_88x](/assets/images/blinkers/site_badge_goo88x.png)
+<img src="/assets/images/blinkers/candycane.gif" alt="badge-fanmade">
+<img src="/assets/images/blinkers/site_badge_50x.png" alt="badge_50x">
+<img src="/assets/images/blinkers/site_badge_88x.png" alt="badge_88x">
+<img src="/assets/images/blinkers/site_badge_goo88x.png" alt="badge_goomy_88x">
