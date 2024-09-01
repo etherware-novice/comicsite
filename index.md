@@ -30,3 +30,4 @@ if you want to link back here, use one of my badges:
 ![badge_fanmade](/assets/images/blinkers/candycane.gif)
 ![badge_50x](/assets/images/blinkers/site_badge_50x.png)
 ![badge_88x](/assets/images/blinkers/site_badge_88x.png)
+![badge_goomy_88x](/assets/images/blinkers/site_badge_goo88x.png)
