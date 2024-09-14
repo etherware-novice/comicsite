@@ -1,0 +1,68 @@
+---
+layout: null
+---
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>gallery</title>
+		<link rel="stylesheet" href="/assets/css/styles.css">
+		<link rel="stylesheet" href="https://forum.melonland.net/melonland_common_anims.css" type="text/css" media="all">
+		
+		<style>
+			html, body {
+				background-color: #222222 !important;
+				color: lightgreen !important;
+				text-shadow: 2px 2px 5px white;
+				text-align: left;
+				margin: 10px;
+				font-family: DOS, monospace;
+			}
+			html::before { display: none; }
+
+			a {
+				color: inherit;
+				border: none;
+				outline: none;
+				text-decoration: none;
+				-webkit-tap-highlight-color: white;
+			}
+			p {
+				width: 100%;
+				overflow: hidden;
+			}
+
+			@font-face {
+				font-family: "DOS";
+				font-style: normal;
+				font-weight: normal;
+				src: url("/assets/font/oldschool_pc/ttf - Px (pixel outline)/PxPlus_IBM_BIOS-2y.ttf") format('truetype'); 
+				font-size: 0.5em;
+			}
+		</style>
+
+	</head>
+	<body>
+		<!--
+		<script src="/assets/js/vhsplayer.js"></script>
+
+		<div id="VHSTop" style="width: 90vw; height: 50vh"></div>
+		<script>
+			initVHS(document.getElementById("VHSTop"), {
+				"name": "link",
+				"foo": "bar",
+			});
+		</script>
+		-->
+		<div id="typebootel">
+			<a href="/">back</a>
+			<p>$ ls -l krita_dump/</p>
+			{% for pic in site.data.gallery %}
+			<a href="{{ pic.file }}">
+				<p>.rw-r--r-- candy {{  pic.ts | date: "%a %b %d %Y" }} <span class="marquee">{{ pic.file }}</span></p>
+			</a>
+			{% endfor %}
+		</div>
+
+	</body>
+</html>
