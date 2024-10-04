@@ -1,4 +1,4 @@
-<script>// Pokéneko v0.3 by https://james.nekoweb.org/
+// Pokéneko v0.3 by https://james.nekoweb.org/
 // https://jamesschoch.github.io/Pokeneko/
 
 // Pokéneko is built using sprites from PDMCollab's Sprite Repository.
@@ -196,4 +196,3 @@ var trackerjson;
             laststate = state;
         }
     }, 33);
-</script>

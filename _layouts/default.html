@@ -17,13 +17,17 @@ navbar: topnav
 		</iframe>
 		<!-- <img src="/assets/images/crt1.png" class="overlay"> -->
 		{% if page.neko == "true" %}
-			{% include neko.html %}
+			<script src="/assets/js/neko.js"></script>
 		{% endif %}
 		<script data-goatcounter="https://slimepondcount.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 		<script src="/assets/js/unixfortune.js"></script>
 		<script src="/assets/js/typeboot.js"></script>
 
-		{% include background.html %}
+		<div class="background">
+			<div id="bg-bluedither"></div>
+			<div id="bg-grass"></div>
+		</div>
+
 		{% include mplayer.html %}
 		<div class="container">
 			<div class="navigation">

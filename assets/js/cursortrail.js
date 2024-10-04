@@ -1,4 +1,3 @@
-<script>
 // <![CDATA[
 var colour="random"; // in addition to "random" can be set to any valid colour eg "#f0f" or "red"
 var sparkles=50;
@@ -195,4 +194,3 @@ function newColour() {
   return ("rgb("+c[0]+", "+c[1]+", "+c[2]+")");
 }
 // ]]>
-</script>
