@@ -26,6 +26,7 @@
 [<img src="/assets/images/blinkers/dittostamp1.gif">](https://dittodan.neocities.org)  
 [icon archive](http://cs.gettysburg.edu/~duncjo01/archive/icons/iconolog/giffed/iconolog/index.html)  
 [<img src="/assets/images/blinkers/moosky.gif">](https://themooskyfish.nekoweb.org/)  
+<https://trollbreeder.neocities.org>
 <https://jack-dawlia.neocities.org/page/home>  
 <https://sprinkleshojo.nekoweb.org/>  
 <https://www.earthboundtext.com>  

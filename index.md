@@ -8,7 +8,7 @@ you somehow stumbled into here and now its your problem :D
 i happen to be an artist and coder:  
 ![sappy](/assets/honey/site_intro.png)
 
-proud artfighter of 1 year! (verdicts still out on if we won)
+proud artfighter of 1 year!
 
 <img src="/assets/images/blinkers/stamp_seafoam.png" alt="artfight-seafoam">
 110 attacks - 72 defenses
