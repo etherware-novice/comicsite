@@ -10,7 +10,9 @@ navbar: topnav
 		<link rel="stylesheet" href="https://webcomicring.org/js/comicring.css">
 		<link rel="stylesheet" href="/assets/css/typeboot.css">
 
-		<meta property="og:image" content="{{ page.image }}">
+		{% if page.image %}
+		<meta property="og:image" content="/assets/images/{{ page.image }}">
+		{% endif %}
 	</head>
 	<body>
 		<iframe width="90" height="90"
