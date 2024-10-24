@@ -20,6 +20,7 @@ because i am very bad at organzation
 <a href="#rust">Rust</a> 
 <a href="#tic-80-rip">Tic80</a> 
 <a href="#asm">ASM</a> 
+<https://github.com/KenneyNL/Adobe-Alternatives>
 <a href="#c-coding">c lang</a> 
 <a href="#c">C++</a> 
 <a href="#htmlcssjs">Webdev</a> 
@@ -39,6 +40,7 @@ because i am very bad at organzation
 <http://wiki.synchro.net/ref:qwk>  
 <https://ps.ucw.cz/e16/e16-themes-gallery/>  
 <https://github.com/Paulie420/dotfiles/blob/master/.syncterm/paulie.lst>  
+<https://github.com/KenneyNL/Adobe-Alternatives>  
 
 ## Radio
 [Software Defined Radio by MIT Film & Video Production Club](https://www.youtube.com/watch?v=bI0qXPqufBY&ab_channel=MITFilm%26VideoProductionclub)  
@@ -65,7 +67,8 @@ because i am very bad at organzation
 
 ## Artwork
 [Perspective Drawing](https://youtu.be/5lPfz3BFxCM)  
-[Time saving tips](https://youtu.be/6BzCDVR-tr8)
+[Time saving tips](https://youtu.be/6BzCDVR-tr8)  
+<https://loveletterworm.itch.io/charaideagen>  
 
 ## Pixel Art
 [How to design and animate a character](https://youtu.be/FnkDXMssMPU)  
@@ -187,7 +190,12 @@ because i am very bad at organzation
 <https://thoughts.melonking.net/guides/creating-a-3d-world-in-x3d>  
 <https://kristopolous.github.io/BOOTSTRA.386/v2.3.1/base-css.html>  
 <https://www.image-map.net/>  
-<https://cubic-bezier.com>
+<https://cubic-bezier.com>  
+<https://pollcode.com/>  
+<https://stackoverflow.com/questions/4478783/select-random-file-from-directory>  
+[Web Weather Embedder](https://battaglia.ddns.net/twc/)  
+https://slashpages.net/ 
+[Cool color picker](https://oklch.com)  
 
 ## SDL/OpenGL
 <https://wiki.libsdl.org/SDL2/Tutorials>  
