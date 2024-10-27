@@ -157,3 +157,53 @@ body::before {
 
 #webring-disp { color: black; }
 #webring-disp a { color: black; }
+
+
+// marching ants
+
+a{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+a:hover {
+  padding: 4px;
+  background-image: linear-gradient(90deg, black 50%, transparent 50%),
+  linear-gradient(90deg, black 50%, transparent 50%),
+  linear-gradient(0deg, black 50%, transparent 50%),
+  linear-gradient(0deg, black 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+  background-position: left top, right bottom, left bottom, right top;
+  animation: border-dance 0.7s steps(4) infinite;
+}
+/*Huge thanks to this specific stack overflow answer for getting the marching ants: https://stackoverflow.com/a/52963366 */
+/*The below code adds a second layer, so there's a black shadow (above) and blue top (below).*/
+a:hover::before {
+  content: '';
+  position: absolute;
+  top: -1px; /* Adjust for exact overlap */
+  left: -1px; /* Adjust for exact overlap */
+  bottom: 1px;
+  right: 1px;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, skyblue 50%, transparent 50%),
+  linear-gradient(90deg, skyblue 50%, transparent 50%),
+  linear-gradient(0deg, skyblue 50%, transparent 50%),
+  linear-gradient(0deg, skyblue 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+  background-position: left top, right bottom, left bottom, right top;
+  animation: border-dance 0.7s steps(4) infinite;
+  pointer-events: none; /* Ensure it doesn’t interfere with the link */
+}
+
+@keyframes border-dance {
+  0% {
+    background-position: left top, right bottom, left bottom, right top;
+  }
+
+  100% {
+    background-position: left 15px top, right 15px bottom, left bottom 15px, right top 15px;
+  }
+}
