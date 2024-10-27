@@ -2,7 +2,6 @@
 ---
 # OTHER OLDEN WEBSITES
 <https://retrojcities.neocities.org/>  
-<https://neoskitties.org/>  
 <https://goblin-heart.net/sadgrl/cyberspace/surf-the-web>  
 <http://lu.tiny-universes.net/index2.html>  
 <https://tiny-universes.net/>  
@@ -23,11 +22,13 @@
 <https://www.absolutemario.com>  
 <https://pixelsea.neocities.org>  
 <https://byhand.website/guides/>  
-[<img src="/assets/images/blinkers/dittostamp1.gif">](https://dittodan.neocities.org)  
 [icon archive](http://cs.gettysburg.edu/~duncjo01/archive/icons/iconolog/giffed/iconolog/index.html)  
+[<img src="/assets/images/blinkers/dittostamp1.gif">](https://dittodan.neocities.org)  
 [<img src="/assets/images/blinkers/moosky.gif">](https://themooskyfish.nekoweb.org/)  
 <a href="https://rol.nekoweb.org/"><img src="https://rol.nekoweb.org/button.gif" alt="Enter Rol's Space Cabin'"></a>  
-<https://trollbreeder.neocities.org>
+<a href="https://lovelydumpling.neocities.org"><img src="https://lovelydumpling.nekoweb.org/img/dumplingbadge.gif"></a>  
+<a href="https://neoskitties.org"><img src="https://neoskitties.org/assets/neoskitties.png"></a>  
+<https://trollbreeder.neocities.org>  
 <https://jack-dawlia.neocities.org/page/home>  
 <https://sprinkleshojo.nekoweb.org/>  
 <https://www.earthboundtext.com>  
