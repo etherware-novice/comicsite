@@ -135,5 +135,14 @@ layout: null
 
 			dispLink();
 			setInterval(updateFancyTime, 1000);
+
+			document.getElementById("searchbar").
+				addEventListener('keydown', (e) => {
+					if (e.key === 'Enter')
+					{
+						e.preventDefault();
+						searchwww();
+					}
+				});
 		</script>
 	</body>
