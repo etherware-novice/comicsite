@@ -29,6 +29,7 @@
 <a href="https://lovelydumpling.neocities.org"><img src="https://lovelydumpling.nekoweb.org/img/dumplingbadge.gif"></a>  
 <a href="https://neoskitties.org"><img src="https://neoskitties.org/assets/neoskitties.png"></a>  
 <https://trollbreeder.neocities.org>  
+<https://adanteallegro.neocities.org/>  
 <https://jack-dawlia.neocities.org/page/home>  
 <https://sprinkleshojo.nekoweb.org/>  
 <https://www.earthboundtext.com>  
