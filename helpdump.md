@@ -1,7 +1,8 @@
 ---
 ---
 # THE HELPFUL LINKS
-because i am very bad at organzation
+because i am very bad at organzation  
+all melonforum pages linked with permission by Meloon
 
 ## TOC
 <a href="#linux">Linux</a> 
@@ -41,6 +42,7 @@ because i am very bad at organzation
 <https://ps.ucw.cz/e16/e16-themes-gallery/>  
 <https://github.com/Paulie420/dotfiles/blob/master/.syncterm/paulie.lst>  
 <https://github.com/KenneyNL/Adobe-Alternatives>  
+[Win7 VM Guide](https://forum.melonland.net/index.php?action=printpage;topic=3010.0)  
 
 ## Radio
 [Software Defined Radio by MIT Film & Video Production Club](https://www.youtube.com/watch?v=bI0qXPqufBY&ab_channel=MITFilm%26VideoProductionclub)  
@@ -64,6 +66,8 @@ because i am very bad at organzation
 [Mindset of Successful Programmers by bigboxSWE](https://www.youtube.com/watch?v=nogh434ykF0)  
 [Why Perfectionism keeps you from doing anything](https://youtu.be/Ynew5KSbAQQ)  
 [Learn Hard Concepts Intuitively](https://youtu.be/Dm68uFy6gus)  
+[Coping with loneliness](https://forum.melonland.net/index.php?action=printpage;topic=3162.0)  
+[Website motivation](https://forum.melonland.net/index.php?action=printpage;topic=2123.0)  
 
 ## Artwork
 [Perspective Drawing](https://youtu.be/5lPfz3BFxCM)  
@@ -108,7 +112,8 @@ because i am very bad at organzation
 [Rigging for impatient people](https://www.youtube.com/watch?v=DDeB4tDVCGY)  
 [Sketch to Fully Rigged Model](https://youtu.be/9GRCkeRmm08)  
 [Fast BLENDER-KRITA workflow](https://youtu.be/8MzkzwvbEnQ)  
-[Texture Wrapping](https://www.youtube.com/watch?v=EK6-tWUGljY&ab_channel=CGInfinite)
+[Texture Wrapping](https://www.youtube.com/watch?v=EK6-tWUGljY&ab_channel=CGInfinite)  
+[Olden 3D Software](https://forum.melonland.net/index.php?action=printpage;topic=2925.0)  
 
 ## Makefile
 [YACC/Lex](https://tldp.org/HOWTO/Lex-YACC-HOWTO.html#toc4)  
