@@ -1,0 +1,28 @@
+---
+---
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="/assets/css/styles.css">
+		<link rel="stylesheet" href="https://webcomicring.org/js/comicring.css">
+		<link rel="stylesheet" href="/assets/css/typeboot.css">
+
+		{% if page.image %}
+		<meta property="og:image" content="/assets/images/{{ page.image }}">
+		{% endif %}
+	</head>
+	<body>
+		<a style="position:fixed;z-index:1339; !important;top:55px;right:3px;" href="http://www.snazzyspace.com/generators/viewer-counter/" title="SnazzySpace.com Viewer Counter" target="_blank"><img src="http://www.snazzyspace.com/generators/viewer-counter/counter.php/fid=1731085664/style=0/counter.png" border="0"></a>
+		
+		<script data-goatcounter="https://slimepondcount.goatcounter.com/count" async src="//gc.zgo.at/count.js">
+		</script>
+		{% unless jekyll.environment == "local" %}
+			<link href="https://melonking.net/styles/flood.css" rel="stylesheet" type="text/css" media="all" />
+			<script src="https://melonking.net/scripts/flood.js"></script>
+		{% endunless %}
+		
+		{{ content }}
+	</body>
+</html>

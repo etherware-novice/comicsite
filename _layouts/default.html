@@ -1,79 +1,54 @@
 ---
 navbar: topnav
+layout: barebones
 ---
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>{{ page.title }}</title>
-		<link rel="stylesheet" href="/assets/css/styles.css">
-		<link rel="stylesheet" href="https://webcomicring.org/js/comicring.css">
-		<link rel="stylesheet" href="/assets/css/typeboot.css">
+<iframe width="90" height="90"
+	style="border:none; position: fixed; z-index: 102; bottom: 0; left: 40vw;"
+	src="https://dimden.neocities.org/navlink/" name="neolink">
+</iframe>
 
-		{% if page.image %}
-		<meta property="og:image" content="/assets/images/{{ page.image }}">
+<!-- <img src="/assets/images/crt1.png" class="overlay"> -->
+{% if page.neko == "true" %}
+	<script src="/assets/js/neko.js"></script>
+{% endif %}
+
+<script src="/assets/js/unixfortune.js"></script>
+<script src="/assets/js/typeboot.js"></script>
+
+<div class="background">
+	<div id="bg-bluedither"></div>
+	<div id="bg-grass"></div>
+</div>
+
+{% include mplayer.html %}
+<div class="container">
+	<div class="navigation">
+		{% if layout.navbar != "" %}
+			{% include {{layout.navbar}}.html %}
 		{% endif %}
-	</head>
-	<body>
-		<iframe width="90" height="90"
-			style="border:none; position: fixed; z-index: 102; bottom: 0; left: 40vw;"
-			src="https://dimden.neocities.org/navlink/" name="neolink">
-		</iframe>
-
-	<a style="position:fixed;z-index:1339; !important;top:55px;right:3px;" href="http://www.snazzyspace.com/generators/viewer-counter/" title="SnazzySpace.com Viewer Counter" target="_blank"><img src="http://www.snazzyspace.com/generators/viewer-counter/counter.php/fid=1731085664/style=0/counter.png" border="0"></a>
-
-		<!-- <img src="/assets/images/crt1.png" class="overlay"> -->
-		{% if page.neko == "true" %}
-			<script src="/assets/js/neko.js"></script>
-		{% endif %}
-		<script data-goatcounter="https://slimepondcount.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-		<script src="/assets/js/unixfortune.js"></script>
-		<script src="/assets/js/typeboot.js"></script>
-
-		<div class="background">
-			<div id="bg-bluedither"></div>
-			<div id="bg-grass"></div>
-		</div>
-
-		{% include mplayer.html %}
-		<div class="container">
-			<div class="navigation">
-				{% if layout.navbar != "" %}
-					{% include {{layout.navbar}}.html %}
-				{% endif %}
-			</div>
-			<marquee class="name">{{ page.name }}</marquee>
-			<div class="main">{{ content }}</div>
-			<div class="pets">
-				time:
-				<span id="swatchClock"></span>
-				<script src="/assets/js/swatch.js"></script>
-				{% include statuscafe.html %}
-				<img src="/assets/images/blinkers/cc-by-sa.gif">
-			</div>
-			<marquee onstart="updateFortune(this, '/assets/fortune/fortunes')" class="quotes">
-				quotes will go here when i get back to working on this
-			</marquee>
-				
-			<img src="https://slimepondcount.goatcounter.com/counter/{{ page.url }}.png" style="width: 100%" class="sitecount">
-			<iframe src="https://www3.cbox.ws/box/?boxid=3539632&boxtag=JU8HaS" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="5" marginwidth="5" scrolling="auto" id="cbox"></iframe>
-
-			<marquee id="blinkerscroll">
-			{% for blink in site.data.blinkers %}
-				<img src="/assets/images/blinkers/{{ blink.name }}" class="blinkers"></img>
-			{% endfor %}
-			</marquee>
-			
-
-			</div>
-		</div>
 	</div>
+	<marquee class="name">{{ page.name }}</marquee>
+	<div class="main">{{ content }}</div>
+	<div class="pets">
+		time:
+		<span id="swatchClock"></span>
+		<script src="/assets/js/swatch.js"></script>
+		{% include statuscafe.html %}
+		<img src="/assets/images/blinkers/cc-by-sa.gif">
+	</div>
+	<marquee onstart="updateFortune(this, '/assets/fortune/fortunes')" class="quotes">
+		quotes will go here when i get back to working on this
+	</marquee>
+				
+	<img src="https://slimepondcount.goatcounter.com/counter/{{ page.url }}.png" style="width: 100%" class="sitecount">
+	<iframe src="https://www3.cbox.ws/box/?boxid=3539632&boxtag=JU8HaS" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="5" marginwidth="5" scrolling="auto" id="cbox"></iframe>
 
-	{% unless jekyll.environment == "local" %}
-		<link href="https://melonking.net/styles/flood.css" rel="stylesheet" type="text/css" media="all" />
-		<script src="https://melonking.net/scripts/flood.js"></script>
-	{% endunless %}
+	<marquee id="blinkerscroll">
+	{% for blink in site.data.blinkers %}
+		<img src="/assets/images/blinkers/{{ blink.name }}" class="blinkers"></img>
+	{% endfor %}
+	</marquee>
+		
 
-            
-	</body>
-</html>
+	</div>
+</div>
