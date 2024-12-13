@@ -27,6 +27,8 @@ look at my pets
 
 <a href="https://www.exophase.com/user/candycanearter07/"><img src="https://card.exophase.com/2/0/268504.png?1722802555"></a>  
 
+<br><script src="https://silly.possiblyaxolotl.com/ring/webstring.js"></script>
+
 if you want to link back here, use one of my badges:  
 <img src="/assets/images/blinkers/candycane.gif" alt="badge-fanmade">
 <img src="/assets/images/blinkers/site_badge_50x.png" alt="badge_50x">
