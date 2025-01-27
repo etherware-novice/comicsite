@@ -33,7 +33,7 @@ layout: null
 
 			#preview {
 				position: fixed; right: 10vw; top: 10vh;
-				width: 20vmax; height: 20vmax;
+				width: 25vmax; height: 25vmax;
 
 				image-rendering: pixelated;
 				border-image-slice: 18 19 18 19; border-image-repeat: space;
@@ -43,8 +43,8 @@ layout: null
 			}
 
 			#preview img {
-				max-width: 100%; max-height: 100%;
 				width: 100%; height: 100%;
+				object-fit: contain;
 			}
 
 			@font-face {
@@ -89,8 +89,9 @@ layout: null
 			}
 
 			function prevClear() {
-				document.querySelector("#preview img").src = null;
+				document.querySelector("#preview img").src = "default.png";
 			}
+			prevClear()
 		</script>
 	</body>
 </html>
