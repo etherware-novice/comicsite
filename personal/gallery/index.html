@@ -31,6 +31,22 @@ layout: null
 				overflow: hidden;
 			}
 
+			#preview {
+				position: fixed; right: 10vw; top: 10vh;
+				width: 20vmax; height: 20vmax;
+
+				image-rendering: pixelated;
+				border-image-slice: 18 19 18 19; border-image-repeat: space;
+				border-image-width: 20px; border-style: solid;
+				border-image-source: url("/assets/images/decor/ascii_border.png");
+				padding: 2%;
+			}
+
+			#preview img {
+				max-width: 100%; max-height: 100%;
+				width: 100%; height: 100%;
+			}
+
 			@font-face {
 				font-family: "DOS";
 				font-style: normal;
@@ -38,6 +54,7 @@ layout: null
 				src: url("/assets/font/oldschool_pc/ttf - Px (pixel outline)/PxPlus_IBM_BIOS-2y.ttf") format('truetype'); 
 				font-size: 0.5em;
 			}
+
 		</style>
 
 	</head>
@@ -53,7 +70,7 @@ layout: null
 			});
 		</script>
 		-->
-		<div id="typebootel">
+		<div id="typebootel" onmousemove="prevUpdate()" onmouseout="prevClear()">
 			<a href="/">back</a>
 			<p>$ ls -l krita_dump/</p>
 			{% for pic in site.data.gallery %}
@@ -62,6 +79,18 @@ layout: null
 			</a>
 			{% endfor %}
 		</div>
+		<div id="preview"><img src=""></img></div>
 
+		<script>
+			function prevUpdate() {
+				let img = document.querySelector("#typebootel a:hover");
+				if (!img) {return;}
+				document.querySelector("#preview img").src = img.href;
+			}
+
+			function prevClear() {
+				document.querySelector("#preview img").src = null;
+			}
+		</script>
 	</body>
 </html>
