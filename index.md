@@ -27,11 +27,17 @@ look at my pets
 
 <a href="https://www.exophase.com/user/candycanearter07/"><img src="https://card.exophase.com/2/0/268504.png?1722802555"></a>  
 
+one day ill add these to a seperate page..<br>
 <br><script src="https://silly.possiblyaxolotl.com/ring/webstring.js"></script>
 <div id='apartment-webring'>
      <script type="text/javascript" src="https://darkosparko.nekoweb.org/webrings/apartments-webring/apartment-webring-variables.js"></script>
      <script type="text/javascript" src="https://darkosparko.nekoweb.org/webrings/apartments-webring/apartment-webring-widget.js"></script>
 </div> 
+
+<div id='bugring'>
+      <script type="text/javascript" src="https://toastofthesewn.nekoweb.org/bugring/script/bugring-variables.js"></script>
+      <script type="text/javascript" src="https://toastofthesewn.nekoweb.org/bugring/script/bugring-widget.js"></script>
+      </div>
 
 if you want to link back here, use one of my badges:  
 <img src="/assets/images/blinkers/candycane.gif" alt="badge-fanmade">
