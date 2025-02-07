@@ -39,6 +39,17 @@ one day ill add these to a seperate page..<br>
       <script type="text/javascript" src="https://toastofthesewn.nekoweb.org/bugring/script/bugring-widget.js"></script>
       </div>
 
+ <map name="w95widget">
+<area href="https://baccyflap.com/noai" target="_blank" shape="rect" coords="0,0,308,22" alt="no ai webring" title="no ai webring">
+<area href="https://baccyflap.com/noai/?prv&s=cnd" target="_top" shape="rect" coords="56,36,130,58" alt="previous" title="previous">
+<area href="https://baccyflap.com/noai/?rnd" target="_top" shape="rect" coords="137,36,211,58" alt="random" title="random">
+<area href="https://baccyflap.com/noai/?nxt&s=cnd" target="_top" shape="rect" coords="218,36,292,58" alt="next" title="next">
+</map>
+<img usemap="#w95widget" src="https://baccyflap.com/noai/w95widget.gif" alt="a gray Windows 95 style dialog box titled 'The No AI Webring' with a little icon showing a computer chip in a rubbish bin. beside it are three clickable buttons, labeled Previous, Random... and Next"> 
+
+also featured on <a href='https://blue-pages.bitbucket.io/'>the blue pages</a>
+
+
 if you want to link back here, use one of my badges:  
 <img src="/assets/images/blinkers/candycane.gif" alt="badge-fanmade">
 <img src="/assets/images/blinkers/site_badge_50x.png" alt="badge_50x">
