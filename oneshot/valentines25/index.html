@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+        <head>
+                <title>valentines day '25</title>
+                <meta charset="utf-8">
+                <link rel="stylesheet" href="index.css">
+        </head>
+        <body>
+                <div id="textbox"></div>
+                <div id="bg">
+                        <img id="fg" src="summit_fg.png">
+                </div>
+                <div id="curtain"></div>
+
+                <script>
+                        var textbox = document.getElementById("textbox");
+                        var stdout = null;
+                        var stdin = null;
+                        var vbar = textbox.insertBefore(document.createTextNode("|"), null);
+
+                        var script = [ 
+                                "[[[[[[[[[[[[[[[[[[[[[[[[[[[[you're probably wondering why this looks so cold and barren",
+                                "i just really like the terminal asthetic and couldn't think of anything else",
+                                "[[[[[[[[[[[[[[[[so how's your valentines day going?",
+                                "reading input[[[[[[[[[[[[[[[[[[",
+                                "great! glad for you.. real happy",
+                                "i'm probably off doing some coding while you're reading this",
+                                "or maybe you're in the far future or something, who knows",
+                                "[[[[[[what? i need to stop beating around the bush and address the self-love aspect?",
+                                "fine.. i care about you, i believe in you, etc etc",
+                                "[[[ok, fine.. ill open up a little bit",
+                                "so far the year has been somewhat a disaster in terms of friendgroups",
+                                "but[[[[[[",
+                                "i'm still alive and (i hope) i won't have to deal with those feelings again",
+                                "[[[[[well[[, i dont know what else to say",
+                                "[[[ill leave you with] this drawing",
+                                "[[[[[[[[[[[[[[[[[[[[[[[pretty, isnt it?",
+                                "[[[[[[[[[[[i always liked the sea",
+                                "[[[[[[[...hey isnt there a saying about that and love?",
+                                "happy valentines day",
+                                "this is my submission for https://32bit.cafe/vday25/"
+                        ];
+
+                        var looping = null;
+
+
+                        function runDial() {
+                                if (stdin == null)
+                                {
+                                        let nl = script.shift();
+                                        if (nl == undefined)
+                                        {
+                                                clearInterval(looping);
+                                                return;
+                                        }
+
+                                        stdin = Array.from(nl);
+                                        textbox.insertBefore(document.createElement('br'), vbar);
+                                        stdout = textbox.insertBefore(document.createTextNode(""), vbar);
+                                }
+
+                                let ch = stdin.shift();
+                                if (ch == undefined) { stdin = null }
+                                else if (ch == '[') { return; }
+                                else if (ch == ']')
+                                {
+                                        document.getElementById("curtain").animate(
+                                                { top: "0", top: "100vh" },
+                                                { duration: 5000, iterations: 1, fill: "forwards" }
+                                        )
+                                }
+                                else { stdout.appendData(ch) }
+
+                                document.getElementById("textbox").scroll(0,99999999);
+                        }
+
+                        looping = setInterval(runDial, 150);
+                </script>
+        </body>
+</html>

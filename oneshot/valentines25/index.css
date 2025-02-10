@@ -1,0 +1,46 @@
+html {
+        background-color: black;
+        color: white;
+
+        overflow: hidden;
+        font-family: terminal;
+}
+
+@font-face {
+        font-family: terminal;
+        src: url("/assets/font/oldschool_pc/ttf - Px (pixel outline)/Px437_IBM_VGA_9x16.ttf")
+}
+
+#textbox {
+        width: 30vw; height: 30vh;
+        position: absolute; top: 20vh; left: 5vw;
+
+        font-size: 250%; word-wrap: break-word;
+        overflow: hidden;
+
+				border-image-slice: 18 19 18 19; border-image-repeat: space;
+				border-image-width: 20px; border-style: solid;
+				border-image-source: url("/assets/images/decor/ascii_border.png");
+				padding: 2%;
+
+        background-color: black;
+        image-rendering: pixelated;
+}
+
+#fg {
+        position: absolute; right: 0; bottom: 0;
+        height: 100%;
+}
+
+#bg {
+        position: absolute; z-index: -2;
+        width: 98vw; height: 98vh;
+        background-image: url("summit_bg.png");
+        background-repeat: repeat-x; background-size: contain;
+}
+
+#curtain {
+        position: absolute; z-index: -1;
+        width: 100vw; height: 100vh; top: 0;
+        background-color: black;
+}
