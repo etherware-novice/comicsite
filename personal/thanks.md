@@ -18,6 +18,8 @@ hiyenastrike - reader, artist
 dienamo - reader, original css guy  
 phoenix - css guy  
 [levi](https://www.antarcticempire.net/) - reader  
+[mooskyfish](https://themooskyfish.nekoweb.org/) - reader, webdev  
+soopela - reader  
 
 Drew Neilum - reader  
 [Russ Albery](https://www.eyrie.org/~eagle) - reader  
