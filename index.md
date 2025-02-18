@@ -45,7 +45,23 @@ one day ill add these to a seperate page..<br>
 <area href="https://baccyflap.com/noai/?rnd" target="_top" shape="rect" coords="137,36,211,58" alt="random" title="random">
 <area href="https://baccyflap.com/noai/?nxt&s=cnd" target="_top" shape="rect" coords="218,36,292,58" alt="next" title="next">
 </map>
-<img usemap="#w95widget" src="https://baccyflap.com/noai/w95widget.gif" alt="a gray Windows 95 style dialog box titled 'The No AI Webring' with a little icon showing a computer chip in a rubbish bin. beside it are three clickable buttons, labeled Previous, Random... and Next"> 
+<img usemap="#w95widget" src="https://baccyflap.com/noai/w95widget.gif" alt="a gray Windows 95 style dialog box titled 'The No AI Webring' with a little icon showing a computer chip in a rubbish bin. beside it are three clickable buttons, labeled Previous, Random... and Next"> <br>
+
+<div id='gfdkris'> 
+                  <script type="text/javascript" src="https://fabstarotcorner.neocities.org/webring/onionring-variables.js"></script>
+                  <script type="text/javascript" src="https://fabstarotcorner.neocities.org/webring/onionring-widget.js"></script>
+              </div>
+        <br>
+
+<div id='webringid'>
+<script type="text/javascript" src="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring-variables.js"></script>
+<script type="text/javascript" src="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring-widget-1.js"></script>
+<noscript>
+This site is part of the <a href="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring">Aperture Webring</a>!
+</noscript>
+</div>
+        <br>
+
 
 also featured on <a href='https://blue-pages.bitbucket.io/'>the blue pages</a>
 
