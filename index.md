@@ -28,15 +28,15 @@ look at my pets
 <a href="https://www.exophase.com/user/candycanearter07/"><img src="https://card.exophase.com/2/0/268504.png?1722802555"></a>  
 
 one day ill add these to a seperate page..<br>
-<br><script src="https://silly.possiblyaxolotl.com/ring/webstring.js"></script>
+<br><script src="https://silly.possiblyaxolotl.com/ring/webstring.js" async></script>
 <div id='apartment-webring'>
-     <script type="text/javascript" src="https://darkosparko.nekoweb.org/webrings/apartments-webring/apartment-webring-variables.js"></script>
-     <script type="text/javascript" src="https://darkosparko.nekoweb.org/webrings/apartments-webring/apartment-webring-widget.js"></script>
+     <script type="text/javascript" src="https://darkosparko.nekoweb.org/webrings/apartments-webring/apartment-webring-variables.js" async></script>
+     <script type="text/javascript" src="https://darkosparko.nekoweb.org/webrings/apartments-webring/apartment-webring-widget.js" async></script>
 </div> 
 
 <div id='bugring'>
-      <script type="text/javascript" src="https://toastofthesewn.nekoweb.org/bugring/script/bugring-variables.js"></script>
-      <script type="text/javascript" src="https://toastofthesewn.nekoweb.org/bugring/script/bugring-widget.js"></script>
+      <script type="text/javascript" src="https://toastofthesewn.nekoweb.org/bugring/script/bugring-variables.js" async></script>
+      <script type="text/javascript" src="https://toastofthesewn.nekoweb.org/bugring/script/bugring-widget.js" async></script>
       </div>
 
  <map name="w95widget">
@@ -48,19 +48,19 @@ one day ill add these to a seperate page..<br>
 <img usemap="#w95widget" src="https://baccyflap.com/noai/w95widget.gif" alt="a gray Windows 95 style dialog box titled 'The No AI Webring' with a little icon showing a computer chip in a rubbish bin. beside it are three clickable buttons, labeled Previous, Random... and Next"> <br>
 
 <div id='gfdkris'> 
-                  <script type="text/javascript" src="https://fabstarotcorner.neocities.org/webring/onionring-variables.js"></script>
-                  <script type="text/javascript" src="https://fabstarotcorner.neocities.org/webring/onionring-widget.js"></script>
+                  <script type="text/javascript" src="https://fabstarotcorner.neocities.org/webring/onionring-variables.js" async></script>
+                  <script type="text/javascript" src="https://fabstarotcorner.neocities.org/webring/onionring-widget.js" async></script>
               </div>
-        <br>
 
-<div id='webringid'>
-<script type="text/javascript" src="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring-variables.js"></script>
-<script type="text/javascript" src="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring-widget-1.js"></script>
+<br>
+
+<div id='aperturewebring'>
+<script type="text/javascript" src="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring-variables.js" async></script>
+<script type="text/javascript" src="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring-widget-1.js" async></script>
 <noscript>
 This site is part of the <a href="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring">Aperture Webring</a>!
 </noscript>
 </div>
-        <br>
 
 
 also featured on <a href='https://blue-pages.bitbucket.io/'>the blue pages</a>
