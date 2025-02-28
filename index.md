@@ -17,7 +17,7 @@ layout: barebones
         left: 0; bottom: 0;
         height: 90%;
     }
-    #bg a { position: absolute !important; }
+    #bg a { position: initial !important; }
 
     html::before {
         animation-name: flicker; animation-duration: 3s;
