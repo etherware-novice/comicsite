@@ -62,6 +62,10 @@ This site is part of the <a href="https://jack-dawlia.neocities.org/page/shrines
 </noscript>
 </div>
 
+<br>
+
+ <div id='writersblockwebring'> <script type="text/javascript" src="https://thewritersblockwebring.neocities.org/onionring-variables.js"> </script> <script type="text/javascript" src="shttps://thewritersblockwebring.neocities.org//onionring-widget.js"></script></div>
+
 
 also featured on <a href='https://blue-pages.bitbucket.io/'>the blue pages</a>
 
