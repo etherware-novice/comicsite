@@ -67,7 +67,17 @@ all melonforum pages linked with permission by Meloon
 [Why Perfectionism keeps you from doing anything](https://youtu.be/Ynew5KSbAQQ)  
 [Learn Hard Concepts Intuitively](https://youtu.be/Dm68uFy6gus)  
 [Coping with loneliness](https://forum.melonland.net/index.php?action=printpage;topic=3162.0)  
-[Website motivation](https://forum.melonland.net/index.php?action=printpage;topic=2123.0)  
+[Doubt](https://www.eddiedale.com/blog/doubt)  
+melon print docs  
+<https://forum.melonland.net/index.php?action=printpage;topic=2123.0>  
+<https://forum.melonland.net/index.php?action=printpage;topic=3613.0>  
+<https://forum.melonland.net/index.php?action=printpage;topic=3684.0>  
+<https://forum.melonland.net/index.php?action=printpage;topic=3809.0>  
+<https://forum.melonland.net/index.php?action=printpage;topic=3902.0>  
+<https://forum.melonland.net/index.php?action=printpage;topic=3937.0>  
+<https://forum.melonland.net/index.php?action=printpage;topic=3967.0>  
+<https://forum.melonland.net/index.php?action=printpage;topic=3948.0>  
+<https://forum.melonland.net/index.php?action=printpage;topic=3994.0>  
 
 ## Artwork
 [Perspective Drawing](https://youtu.be/5lPfz3BFxCM)  
