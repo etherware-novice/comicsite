@@ -1,4 +1,5 @@
 ---
+title: boot screen
 layout: barebones
 ---
 
@@ -28,10 +29,10 @@ layout: barebones
     }
 
     @keyframes flicker {
-        39% { background-color: #fcca5f }
-        40% { background-color: #ed9c5a }
-        50% { background-color: #fcca5f }
-        100% { background-color: #fcca5f }
+        39% { background-color: #de8015 }
+        40% { background-color: #b4f998 }
+        60% { background-color: #de8015 }
+        100% { background-color: #de8015 }
     }
 
     #textbox {
