@@ -31,7 +31,7 @@ html::after {
 	z-index: 100;
 }
 
-.truecolor { z-index: 100; position: relative; }
+.truecolor { z-index: 1000; position: relative; }
 
 html, body {
 	color: black;
